@@ -1,0 +1,46 @@
+package simple;
+
+import java.lang.*;
+
+import java.util.Scanner;
+
+public class Langpak {
+
+public static void main(String[] args) {
+
+	System.out.println("enter your frind name=");
+
+	 Scanner sc=new Scanner(System.in);
+
+	 String name=sc.nextLine();
+
+		System.out.println("enter your friend age=");
+
+int age =sc.nextInt();
+
+System.out.println("enter your friend weight=");
+
+double weight=sc.nextDouble();
+
+System.out.println("enter your friend height=");
+
+float height=sc.nextFloat();
+
+sc.close();
+
+System.out.println("*******ABOUT MY BEST FRIEND*******");
+
+System.out.println("my friend name is="+name);
+
+System.out.println("my friend age is="+age);
+
+System.out.println("my friend weight is="+weight);
+
+System.out.println("my friend height is="+height);
+
+
+
+	 }
+
+}
+
