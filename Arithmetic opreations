@@ -1,0 +1,39 @@
+package simple;
+
+
+
+public class Arithmetic {
+
+
+
+	public static void main(String[] args) {
+
+		// TODO Auto-generated method stub
+
+		        int a = 20;
+
+		        int b = 6;
+
+
+
+		        System.out.println("a = " + a);
+
+		        System.out.println("b = " + b);
+
+
+
+		        System.out.println("Addition (a + b): " + (a + b));
+
+		        System.out.println("Subtraction (a - b): " + (a - b));
+
+		        System.out.println("Multiplication (a * b): " + (a * b));
+
+		        System.out.println("Division (a / b): " + (a / b));
+
+		        System.out.println("Modulus (a % b): " + (a % b));
+
+		    
+
+	}
+
+}
