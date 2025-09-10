@@ -1,0 +1,35 @@
+package simple;
+
+
+
+public class PrimitiveDatatypes {
+
+
+
+	public static void main(String[] args) {
+
+		double distance =38400;
+
+		float speed=24.5f;
+
+		boolean oxygen =true;
+
+		char rockedcode='w';
+
+		double timetravel=distance/(speed*3600);
+
+		System.out.println("roked code="+rockedcode);
+
+		System.out.println("oxygen="+oxygen);
+
+		System.out.println("time travel="+timetravel);
+
+
+
+
+
+	}
+
+
+
+}
